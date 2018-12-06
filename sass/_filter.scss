@@ -1,0 +1,43 @@
+#filter{
+    .search{
+        width: 100%;
+        margin: 30px 0;
+        input{
+          width: 100%;
+          border: 1px solid $colormain;
+          border-radius: 4px;
+          padding: 0px 10px;
+          float: left;
+          border-bottom-right-radius: 0;
+          border-top-right-radius: 0;
+          &:focus{
+            border-bottom: 1px solid $colormain;
+            box-shadow: none;
+          }
+    
+        }
+        .searchbtn{
+          padding: 5px;
+          text-align: center;
+          background-color: $colormain;
+          height: 26px;
+          border-radius: 4px;
+          border-top-left-radius: 0;
+          border-bottom-left-radius: 0;
+          i{
+            color: white;
+            vertical-align: text-top;
+          }
+        }
+        .choosePrice{
+            .form-control{
+              color: $colormain;
+              border: 1px solid $colormain;
+              padding: 0;
+              height: 26px;
+              border-radius: 0;
+              border-left: none;
+            }
+          }
+      }
+}

@@ -1,0 +1,83 @@
+#advertDetails{
+    padding: 40px 0;
+    p{
+        font-size: 15px;
+        margin-bottom: 8px;
+        
+    }
+    .badge3, .badge4{
+        width: 60px;
+        height: 25px;
+        border-radius: 5px;
+        text-align: center;
+        p{
+            color: white;
+            font-family: $fontmain;
+            font-size: 10px;
+        }
+
+    }
+    .badge3{
+        background-color: $colorblue;
+        p{
+          line-height: 22px;
+        }
+      }
+      .badge4{
+        background-color: $colororange;
+        p{
+          line-height: 24px;
+        }
+      }
+      .message{
+          width: 100%;
+          height: 26px;
+          border: 1px solid $colormain;
+          border-radius: 5px;
+         
+          p{
+            color: $colormain;
+            text-align: center;
+            font-size: 12px;
+            line-height: 24px;
+          }
+      }
+      .carousel-indicators{
+          bottom: -100px !important;
+      }
+      .inform{
+          padding-top: 40px;
+      }
+
+      ul{
+        display: block !important;
+        margin: 0 !important;
+        position: absolute!important;
+        top: 0!important;
+        left: 85% !important;
+        width: 77px !important;
+        padding-left: 0px !important;
+        max-height: 300px;
+        overflow-y: scroll;
+      }
+      .carousel-control-next{
+          left:0 !important;
+      }
+      .carousel-inner{
+          width: 84%;
+          
+      }
+        ul::-webkit-scrollbar {
+            background: transparent; 
+        }
+        ul::-webkit-scrollbar-track {
+            background: transparent; 
+        }
+        ul::-webkit-scrollbar-thumb {
+            background: transparent; 
+        }
+        ul::-webkit-scrollbar-thumb:hover {
+            background: transparent; 
+        }
+
+}

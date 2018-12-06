@@ -1,0 +1,870 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Aylolo</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xl-2 d-xl-block d-lg-none d-md-none d-sm-none d-none" style="padding:0">
+                <div class="reklam">
+                    <a href="#">
+                        <img src="img/user1.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="col-xl-8 col-lg-12 col-md-12 col-sm-12 col-12">
+                <section id="header">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-8 col-8 ">
+                                <div class="logo" style="margin-bottom:20px;">
+                                    <a href="index.html">
+                                        <img src="img/logo.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="menu">
+                                    <i class="fas fa-bars icon"></i>
+                                    <ul class="nav nav-pills toggle" style="display:none">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="services.html" role="button" aria-haspopup="true"
+                                                aria-expanded="false">
+                                                <p>Xidmətlər</p>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="userRules.html" role="button" aria-haspopup="true"
+                                                aria-expanded="false">
+                                                <p>Qaydalar</p>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="reklam.html" role="button" aria-haspopup="true"
+                                                aria-expanded="false">
+                                                <p>Reklam</p>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="contact.html" role="button" aria-haspopup="true"
+                                                aria-expanded="false">
+                                                <p>Əlaqə</p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-xl-1 col-lg-1 col-md-1 col-sm-2 col-2">
+                                <div class="register" style="text-align: center">
+                                    <div class="dropdown dropleft">
+                                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            <i class="fas fa-bell"></i><span class="badge badge-danger">12</span>
+                                        </button>
+                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                            <a class="dropdown-item" href="myAccount.html">Mesajlar <p>2</p></a>
+                                            <a class="dropdown-item" href="myAccount.html">Elanlar <p>12</p></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-1 col-lg-1 col-md-1 col-sm-2 col-2">
+                                <div class="register" style="text-align: center">
+                                    <div class="dropdown dropleft">
+                                        <button class="btn btn-secondary" id="dropdownMenuButton">
+                                            <a href="wishlist.html"><i class="fas fa-star"></i><span class="badge badge-danger">5</span></a>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-2 col-lg-2 col-md-2 col-sm-6 col-6">
+                                <div class="register" style="display:none">
+                                    <a href="login.html">Giriş</a>
+                                    <a href="signup.html" style="margin:0">Qeydiyyat</a>
+                                </div>
+                                <div class="register">
+                                    <div class="dropdown">
+                                        <button class="btn btn-secondary dropdown-toggle nameBtn" type="button" id="dropdownMenuButton"
+                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            Elçin Hüseynzadə
+                                        </button>
+                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                            <a class="dropdown-item" href="profil.html">Profil</a>
+                                            <a class="dropdown-item" href="myAccount.html">Menim hesabim</a>
+                                            <a class="dropdown-item" href="#">Cixis</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-2 col-lg-2 col-md-2 col-sm-6 col-6">
+                                <div class="add"><a href="newAdvert.html">Elan Ver</a></div>
+                            </div>
+                            <div class="col-xl-10 offset-xl-1 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-10 offset-sm-1 col-10 offset-1">
+                                <div class="search">
+                                    <input type="text" name="" value="" placeholder="Axtar">
+                                    <div class="searchbtn">
+                                        <i class="fas fa-search"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="menu">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                                <ul class="nav nav-pills">
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link active" data-toggle="dropdown" href="#" role="button"
+                                            aria-haspopup="true" aria-expanded="false">
+                                            <p>Butun</p>
+                                            <i class="fas fa-bars"></i>
+                                        </a>
+                                        <div class="dropdown-menu ">
+                                            <div class="container">
+                                                <div class="row">
+                                                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-6">
+                                                        <ul class="links">
+                                                            <li><a href="#">Nəqliyyat</a></li>
+                                                            <li><a href="#">Daşınmaz əmlak </a></li>
+                                                            <li><a href="#">İş</a></li>
+                                                            <li><a href="#">CV-lər (Rezyume)</a></li>
+                                                            <li><a href="#">İş elanları</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-6">
+                                                        <ul class="links">
+                                                            <li><a href="#">Elektronika</a></li>
+                                                            <li><a href="#">Xidmətlər </a></li>
+                                                            <li><a href="#">Uşaq dünyas</a></li>
+                                                            <li><a href="#">Ev və bağ</a></li>
+                                                            <li><a href="#">Şəxsi əşyalar</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 d-none d-xl-block d-lg-block d-md-block d-sm-block">
+                                                        <div class="categoryImage">
+                                                            <img src="img/user2.jpg" alt="">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item dropdown" id="navbarItem">
+                                        <a class="nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+                                            aria-expanded="false">
+                                            <p>Daşınmaz əmlak</p>
+                                            <i class="fas fa-home"></i>
+                                        </a>
+                                        <div class="dropdown-menu">
+                                            <div class="container">
+                                                <div class="row">
+                                                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-6">
+                                                        <ul class="links">
+                                                            <li><a href="#">Nəqliyyat</a></li>
+                                                            <li><a href="#">Daşınmaz əmlak </a></li>
+                                                            <li><a href="#">İş</a></li>
+                                                            <li><a href="#">CV-lər (Rezyume)</a></li>
+                                                            <li><a href="#">İş elanları</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-6">
+                                                        <ul class="links">
+                                                            <li><a href="#">Elektronika</a></li>
+                                                            <li><a href="#">Xidmətlər </a></li>
+                                                            <li><a href="#">Uşaq dünyas</a></li>
+                                                            <li><a href="#">Ev və bağ</a></li>
+                                                            <li><a href="#">Şəxsi əşyalar</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 d-none d-xl-block d-lg-block d-md-block d-sm-block">
+                                                        <div class="categoryImage">
+                                                            <img src="img/user2.jpg" alt="">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item dropdown" id="navbarItem">
+                                        <a class="nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+                                            aria-expanded="false">
+                                            <p>Elektronika</p>
+                                            <i class="fas fa-tv"></i>
+                                        </a>
+                                        <div class="dropdown-menu">
+                                            <div class="container">
+                                                <div class="row">
+                                                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-6">
+                                                        <ul class="links">
+                                                            <li><a href="#">Nəqliyyat</a></li>
+                                                            <li><a href="#">Daşınmaz əmlak </a></li>
+                                                            <li><a href="#">İş</a></li>
+                                                            <li><a href="#">CV-lər (Rezyume)</a></li>
+                                                            <li><a href="#">İş elanları</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-6">
+                                                        <ul class="links">
+                                                            <li><a href="#">Elektronika</a></li>
+                                                            <li><a href="#">Xidmətlər </a></li>
+                                                            <li><a href="#">Uşaq dünyas</a></li>
+                                                            <li><a href="#">Ev və bağ</a></li>
+                                                            <li><a href="#">Şəxsi əşyalar</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 d-none d-xl-block d-lg-block d-md-block d-sm-block">
+                                                        <div class="categoryImage">
+                                                            <img src="img/user1.jpg" alt="">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item dropdown" id="navbarItem">
+                                        <a class="nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+                                            aria-expanded="false">
+                                            <p>Ev və bağ</p>
+                                            <i class="fas fa-bed"></i>
+                                        </a>
+                                        <div class="dropdown-menu">
+                                            <div class="container">
+                                                <div class="row">
+                                                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-6">
+                                                        <ul class="links">
+                                                            <li><a href="#">Nəqliyyat</a></li>
+                                                            <li><a href="#">Daşınmaz əmlak </a></li>
+                                                            <li><a href="#">İş</a></li>
+                                                            <li><a href="#">CV-lər (Rezyume)</a></li>
+                                                            <li><a href="#">İş elanları</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-6">
+                                                        <ul class="links">
+                                                            <li><a href="#">Elektronika</a></li>
+                                                            <li><a href="#">Xidmətlər </a></li>
+                                                            <li><a href="#">Uşaq dünyas</a></li>
+                                                            <li><a href="#">Ev və bağ</a></li>
+                                                            <li><a href="#">Şəxsi əşyalar</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 d-none d-xl-block d-lg-block d-md-block d-sm-block">
+                                                        <div class="categoryImage">
+                                                            <img src="img/user1.jpg" alt="">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item dropdown" id="navbarItem">
+                                        <a class="nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+                                            aria-expanded="false">
+                                            <p>Şəxsi əşyalar</p>
+                                            <i class="fas fa-tshirt"></i>
+                                        </a>
+                                        <div class="dropdown-menu">
+                                            <div class="container">
+                                                <div class="row">
+                                                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-6">
+                                                        <ul class="links">
+                                                            <li><a href="#">Nəqliyyat</a></li>
+                                                            <li><a href="#">Daşınmaz əmlak </a></li>
+                                                            <li><a href="#">İş</a></li>
+                                                            <li><a href="#">CV-lər (Rezyume)</a></li>
+                                                            <li><a href="#">İş elanları</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-6">
+                                                        <ul class="links">
+                                                            <li><a href="#">Elektronika</a></li>
+                                                            <li><a href="#">Xidmətlər </a></li>
+                                                            <li><a href="#">Uşaq dünyas</a></li>
+                                                            <li><a href="#">Ev və bağ</a></li>
+                                                            <li><a href="#">Şəxsi əşyalar</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 d-none d-xl-block d-lg-block d-md-block d-sm-block">
+                                                        <div class="categoryImage">
+                                                            <img src="img/user1.jpg" alt="">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item dropdown" id="navbarItem">
+                                        <a class="nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+                                            aria-expanded="false">
+                                            <p>Nəqliyyat </p>
+                                            <i class="fas fa-car"></i>
+                                        </a>
+                                        <div class="dropdown-menu">
+                                            <div class="container">
+                                                <div class="row">
+                                                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-6">
+                                                        <ul class="links">
+                                                            <li><a href="#">Nəqliyyat</a></li>
+                                                            <li><a href="#">Daşınmaz əmlak </a></li>
+                                                            <li><a href="#">İş</a></li>
+                                                            <li><a href="#">CV-lər (Rezyume)</a></li>
+                                                            <li><a href="#">İş elanları</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-6">
+                                                        <ul class="links">
+                                                            <li><a href="#">Elektronika</a></li>
+                                                            <li><a href="#">Xidmətlər </a></li>
+                                                            <li><a href="#">Uşaq dünyas</a></li>
+                                                            <li><a href="#">Ev və bağ</a></li>
+                                                            <li><a href="#">Şəxsi əşyalar</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 d-none d-xl-block d-lg-block d-md-block d-sm-block">
+                                                        <div class="categoryImage">
+                                                            <img src="img/user1.jpg" alt="">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item dropdown" id="navbarItem">
+                                        <a class="nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+                                            aria-expanded="false">
+                                            <p>Xidmətlər</p>
+                                            <i class="fas fa-bell"></i>
+                                        </a>
+                                        <div class="dropdown-menu">
+                                            <div class="container">
+                                                <div class="row">
+                                                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-6">
+                                                        <ul class="links">
+                                                            <li><a href="#">Nəqliyyat</a></li>
+                                                            <li><a href="#">Daşınmaz əmlak </a></li>
+                                                            <li><a href="#">İş</a></li>
+                                                            <li><a href="#">CV-lər (Rezyume)</a></li>
+                                                            <li><a href="#">İş elanları</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-6">
+                                                        <ul class="links">
+                                                            <li><a href="#">Elektronika</a></li>
+                                                            <li><a href="#">Xidmətlər </a></li>
+                                                            <li><a href="#">Uşaq dünyas</a></li>
+                                                            <li><a href="#">Ev və bağ</a></li>
+                                                            <li><a href="#">Şəxsi əşyalar</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 d-none d-xl-block d-lg-block d-md-block d-sm-block">
+                                                        <div class="categoryImage">
+                                                            <img src="img/user1.jpg" alt="">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item dropdown" id="navbarItem">
+                                        <a class="nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+                                            aria-expanded="false">
+                                            <p>Uşaq dünyası</p>
+                                            <i class="fas fa-child"></i>
+                                        </a>
+                                        <div class="dropdown-menu">
+                                            <div class="container">
+                                                <div class="row">
+                                                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-6">
+                                                        <ul class="links">
+                                                            <li><a href="#">Nəqliyyat</a></li>
+                                                            <li><a href="#">Daşınmaz əmlak </a></li>
+                                                            <li><a href="#">İş</a></li>
+                                                            <li><a href="#">CV-lər (Rezyume)</a></li>
+                                                            <li><a href="#">İş elanları</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-6">
+                                                        <ul class="links">
+                                                            <li><a href="#">Elektronika</a></li>
+                                                            <li><a href="#">Xidmətlər </a></li>
+                                                            <li><a href="#">Uşaq dünyas</a></li>
+                                                            <li><a href="#">Ev və bağ</a></li>
+                                                            <li><a href="#">Şəxsi əşyalar</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 d-none d-xl-block d-lg-block d-md-block d-sm-block">
+                                                        <div class="categoryImage">
+                                                            <img src="img/user1.jpg" alt="">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item dropdown" id="navbarItem">
+                                        <a class="nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+                                            aria-expanded="false">
+                                            <p>İş</p>
+                                            <i class="fas fa-business-time"></i>
+                                        </a>
+                                        <div class="dropdown-menu">
+                                            <div class="container">
+                                                <div class="row">
+                                                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-6">
+                                                        <ul class="links">
+                                                            <li><a href="#">Nəqliyyat</a></li>
+                                                            <li><a href="#">Daşınmaz əmlak </a></li>
+                                                            <li><a href="#">İş</a></li>
+                                                            <li><a href="#">CV-lər (Rezyume)</a></li>
+                                                            <li><a href="#">İş elanları</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-6">
+                                                        <ul class="links">
+                                                            <li><a href="#">Elektronika</a></li>
+                                                            <li><a href="#">Xidmətlər </a></li>
+                                                            <li><a href="#">Uşaq dünyas</a></li>
+                                                            <li><a href="#">Ev və bağ</a></li>
+                                                            <li><a href="#">Şəxsi əşyalar</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 d-none d-xl-block d-lg-block d-md-block d-sm-block">
+                                                        <div class="categoryImage">
+                                                            <img src="img/user1.jpg" alt="">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="newAdvert">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <p>Şəkilləri yükləyin :</p>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="col-xl-6 col-lg-6 col-md-8 col-sm-12 col-12">
+                                <div class="row">
+                                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4">
+                                        <div class="advertImg">
+                                            <input type="file" accept='image/*' onchange='openFile(event)'>
+                                            <div class="round">
+                                                <div class="line1"></div>
+                                                <div class="line2"></div>
+                                            </div>
+                                            <img id='output'>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-xl-8 col-lg-8 col-md-8 col-sm-8 col-8">
+                                        <div class="row">
+                                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4">
+                                                <div class="advertImage">
+                                                    <input type="file" accept='image/*' onchange='openFile1(event)'>
+                                                    <div class="round">
+                                                        <div class="line1"></div>
+                                                        <div class="line2"></div>
+                                                    </div>
+                                                    <img id='output1'>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4">
+                                                <div class="advertImage">
+                                                    <input type="file" accept='image/*' onchange='openFile2(event)'>
+                                                    <div class="round">
+                                                        <div class="line1"></div>
+                                                        <div class="line2"></div>
+                                                    </div>
+                                                    <img id='output2'>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4">
+                                                <div class="advertImage">
+                                                    <input type="file" accept='image/*' onchange='openFile3(event)'>
+                                                    <div class="round">
+                                                        <div class="line1"></div>
+                                                        <div class="line2"></div>
+                                                    </div>
+                                                    <img id='output3'>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4">
+                                                <div class="advertImage">
+                                                    <input type="file" accept='image/*' onchange='openFile4(event)'>
+                                                    <div class="round">
+                                                        <div class="line1"></div>
+                                                        <div class="line2"></div>
+                                                    </div>
+                                                    <img id='output4'>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4">
+                                                <div class="advertImage">
+                                                    <input type="file" accept='image/*' onchange='openFile5(event)'>
+                                                    <div class="round">
+                                                        <div class="line1"></div>
+                                                        <div class="line2"></div>
+                                                    </div>
+                                                    <img id='output5'>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4">
+                                                <div class="advertImage">
+                                                    <input type="file" accept='image/*' onchange='openFile6(event)'>
+                                                    <div class="round">
+                                                        <div class="line1"></div>
+                                                        <div class="line2"></div>
+                                                    </div>
+                                                    <img id='output6'>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row" style="margin-top:40px;">
+                            <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12">
+                                <form class="advertForm" action="">
+                                    <div class="form-group">
+                                        <div class="row">
+                                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4">
+                                                <label for="exampleFormControlSelect1" class="lbl">Kateqoriya :</label>
+                                            </div>
+                                            <div class="col-xl-8 col-lg-8 col-md-8 col-sm-8 col-8" style="margin-bottom:0">
+                                                <select class="form-control" id="exampleFormControlSelect1">
+                                                    <option>Dasinmaz Emlak</option>
+                                                    <option>lorem</option>
+                                                    <option>ipsum</option>
+                                                    <option>loremin bibisi</option>
+                                                    <option>loremin emisioglu</option>
+                                                </select>
+                                                <div class="new">
+                                                    <input type="checkbox" id="new1">
+                                                    <label for="new1">Yeni</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4">
+                                                <label for="exampleFormControlSelect1" class="lbl">Seher :</label>
+                                            </div>
+                                            <div class="col-xl-8 col-lg-8 col-md-8 col-sm-8 col-8">
+                                                <select class="form-control" id="exampleFormControlSelect1">
+                                                    <option>Baki</option>
+                                                    <option>Qax</option>
+                                                    <option>Gence</option>
+                                                    <option>Naxcivan</option>
+                                                    <option>Lenkeran</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4">
+                                                <label for="exampleFormControlSelect1" class="lbl">Qiymət (AZN) :</label>
+                                            </div>
+                                            <div class="col-xl-8 col-lg-8 col-md-8 col-sm-8 col-8" style="margin-bottom:0">
+                                                <input type="text" class="form-control">
+                                                <div class="new">
+                                                    <input type="checkbox" id="new2">
+                                                    <label for="new2">Razilasma ile</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4">
+                                                <label for="exampleFormControlSelect1" class="lbl">Mezmun :</label>
+                                            </div>
+                                            <div class="col-xl-8 col-lg-8 col-md-8 col-sm-8 col-8">
+                                                <input type="text" class="form-control">
+                                            </div>
+                                            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                                                <div class="line"></div>
+                                            </div>
+                                            <div class="col-xl-4 col-lg-4 d-xl-block d-lg-block d-md-none d-sm-none d-none"></div>
+                                            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-6">
+                                                <div class="new" style="float:left">
+                                                    <input type="checkbox" id="new3">
+                                                    <label for="new3">Fiziki şəxs</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-6">
+                                                <div class="new" style="float:left">
+                                                    <input type="checkbox" id="new4">
+                                                    <label for="new4">Hüquqi şəxs</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-4 col-lg-4 d-xl-block d-lg-block d-md-none d-sm-none d-none"></div>
+                                            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-6">
+                                                <input type="text" placeholder="Ad">
+                                            </div>
+                                            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-6">
+                                                <input type="text" placeholder="Soyad">
+                                            </div>
+                                            <div class="col-xl-4 col-lg-4 d-xl-block d-lg-block d-md-none d-sm-none d-none"></div>
+                                            <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12">
+                                                <input type="email" class="form-control" placeholder="Email">
+                                            </div>
+                                            <div class="col-xl-4 col-lg-4 d-xl-block d-lg-block d-md-none d-sm-none d-none"></div>
+                                            <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12">
+                                                <input type="text" class="form-control" placeholder="Nömrə">
+                                            </div>
+                                            <div class="col-xl-4 col-lg-4 d-xl-block d-lg-block d-md-none d-sm-none d-none"></div>
+                                            <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12">
+                                                <input type="password" class="form-control" placeholder="Şifrə">
+                                            </div>
+                                            <div class="col-xl-4 col-lg-4 d-xl-block d-lg-block d-md-none d-sm-none d-none"></div>
+                                            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-6">
+                                                <div class="new" style="float:left">
+                                                    <input type="checkbox" id="new5">
+                                                    <label for="new5">Adi elan</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-6">
+                                                <div class="new" style="float:left">
+                                                    <input type="checkbox" id="new6">
+                                                    <label for="new6">VİP elan</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-4 col-lg-4 d-xl-block d-lg-block d-md-none d-sm-none d-none"></div>
+                                            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-6"></div>
+                                            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-6">
+                                                <div class="new" style="float:left">
+                                                    <input type="checkbox" id="new7">
+                                                    <label for="new7">Bizimlə qal</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-4 col-lg-4 d-xl-block d-lg-block d-md-none d-sm-none d-none"></div>
+                                            <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12">
+                                                <a href="#" class="rule">Istifadeci qaydalari</a>
+                                                <button class="btn subBtn" type="submit">
+                                                    Elanı yarat
+                                                </button>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="col-xl-4 d-xl-block col-lg-4 d-lg-block d-md-none d-sm-none d-none">
+                                <div class="userRules">
+                                    <a href="#">Istifadeci Qaydalari ile tanis olun</a>
+                                    <p>1. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat nemo porro
+                                        numquam velit est perspiciatis, laborum incidunt culpa recusandae dolor natus
+                                        inventore iste, pariatur dolores repudiandae quisquam aspernatur sunt vero.</p>
+                                    <p>2. Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse non praesentium
+                                        eveniet, accusantium sed explicabo, accusamus fugit animi unde totam tempore
+                                        dolores earum nihil sint aliquid saepe temporibus tenetur omnis!</p>
+                                    <p>3. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat aperiam
+                                        nemo dolorum impedit ratione vel ipsam expedita, repudiandae facilis minima
+                                        commodi dolore. Aut cumque explicabo quisquam vel corporis voluptatem quas!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+                <section id="footer">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xl-2 col-lg-2 col-md-2 col-sm-4 offset-xl-0 offset-lg-0 offset-md-0 offset-sm-4 col-4 offset-4">
+                                <div class="footerLogo">
+                                    <a href="#">
+                                        <img src="img/logo.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-xl-10 col-lg-10 col-md-10 col-sm-12 col-12">
+                                <div class="footerText">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9 col-12">
+                                                <div class="row">
+                                                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12">
+                                                        <div class="text">
+                                                            <a href="#">
+                                                                <p>Haqqımızda</p>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12">
+                                                        <div class="text">
+                                                            <a href="#">
+                                                                <p>Saytda Reklam</p>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12">
+                                                        <div class="text">
+                                                            <a href="#">
+                                                                <p>Istifadəçi razılaşması</p>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 d-xl-block d-lg-block d-md-block d-sm-block d-none">
+                                                        <div class="social">
+                                                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 d-xl-block d-lg-block d-md-block d-sm-block d-none">
+                                                        <div class="social">
+                                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 d-xl-block d-lg-block d-md-block d-sm-block d-none">
+                                                        <div class="social">
+                                                            <a href="#"><i class="fab fa-instagram"></i></a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 d-xl-block d-lg-block d-md-block d-sm-block d-none">
+                                                        <div class="social">
+                                                            <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-12">
+                                                <div class="text">
+                                                    <a href="#">
+                                                        <p>Bizimlə Əlaqə</p>
+                                                    </a>
+                                                    <div class="contact">
+                                                        <p>janessa_cartwright@leanne.ca</p>
+                                                        <p>578-530-2715</p>
+                                                        <p>452 Durgan Ferry Suite 098</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-xl-none d-lg-block col-lg-12 d-md-block col-md-12 d-sm-block col-sm-12 d-block col-12">
+                        <div class="reklam">
+                            <a href="#">
+                                <img src="img/user2.jpg" alt="" style="margin-top: 30px;">
+                            </a>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="col-xl-2 d-xl-block d-lg-none d-md-none d-sm-none d-none" style="padding:0">
+                <div class="reklam">
+                    <a href="#">
+                        <img src="img/user2.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+            <script>
+                var openFile = function (event) {
+                    var input = event.target;
+                    var reader = new FileReader();
+                    reader.onload = function () {
+                        var dataURL = reader.result;
+                        var output = document.getElementById('output');
+                        output.src = dataURL;
+
+
+                    };
+                    reader.readAsDataURL(input.files[0]);
+                };
+
+                var openFile1 = function (event) {
+                    var input = event.target;
+                    var reader = new FileReader();
+                    reader.onload = function () {
+                        var dataURL = reader.result;
+                        var output = document.getElementById('output1');
+                        output.src = dataURL;
+
+
+                    };
+                    reader.readAsDataURL(input.files[0]);
+                };
+                var openFile2 = function (event) {
+                    var input = event.target;
+                    var reader = new FileReader();
+                    reader.onload = function () {
+                        var dataURL = reader.result;
+                        var output = document.getElementById('output2');
+                        output.src = dataURL;
+
+
+                    };
+                    reader.readAsDataURL(input.files[0]);
+                };
+                var openFile3 = function (event) {
+                    var input = event.target;
+                    var reader = new FileReader();
+                    reader.onload = function () {
+                        var dataURL = reader.result;
+                        var output = document.getElementById('output3');
+                        output.src = dataURL;
+
+
+                    };
+                    reader.readAsDataURL(input.files[0]);
+                };
+                var openFile4 = function (event) {
+                    var input = event.target;
+                    var reader = new FileReader();
+                    reader.onload = function () {
+                        var dataURL = reader.result;
+                        var output = document.getElementById('output4');
+                        output.src = dataURL;
+
+
+                    };
+                    reader.readAsDataURL(input.files[0]);
+                };
+                var openFile5 = function (event) {
+                    var input = event.target;
+                    var reader = new FileReader();
+                    reader.onload = function () {
+                        var dataURL = reader.result;
+                        var output = document.getElementById('output5');
+                        output.src = dataURL;
+
+
+                    };
+                    reader.readAsDataURL(input.files[0]);
+                };
+                var openFile6 = function (event) {
+                    var input = event.target;
+                    var reader = new FileReader();
+                    reader.onload = function () {
+                        var dataURL = reader.result;
+                        var output = document.getElementById('output6');
+                        output.src = dataURL;
+
+
+                    };
+                    reader.readAsDataURL(input.files[0]);
+                };
+            </script>
+            <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+                crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+                crossorigin="anonymous"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+                crossorigin="anonymous"></script>
+            <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+                crossorigin="anonymous"></script>
+            <script src=js/script.js> </script> </body> </html>

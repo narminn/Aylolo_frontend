@@ -1,0 +1,24 @@
+#loginContent{
+    .btns1{
+        padding: 60px 0;
+        .btn1{
+            button{
+                background-color: #3B5998;
+                border-color: #3B5998;
+                margin-bottom: 20px;
+            }
+        }
+        .btn2{
+            button{
+                background-color: #DB4A39;
+                border-color: #DB4A39;
+            }
+        }
+    }
+    .line1{
+        width: 1px;
+        height: 100px;
+        background-color: #979797;
+        margin: 0 auto;
+    }
+}

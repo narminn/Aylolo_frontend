@@ -1,0 +1,1439 @@
+@font-face {
+  font-family: VisbyCF-Bold;
+  src: url(../fonts/VisbyCF-Bold-az.ttf);
+}
+@font-face {
+  font-family: VisbyCF-Medium;
+  src: url(../fonts/VisbyCF-Medium-az.ttf);
+}
+@font-face {
+  font-family: VisbyCF-DemiBold;
+  src: url(../fonts/VisbyCF-DemiBold-az.ttf);
+}
+a {
+  color: black;
+  font-family: VisbyCF-Bold;
+}
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
+
+.sticky1 {
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
+
+.reklam {
+  width: 100%;
+  height: 100vh;
+}
+.reklam img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.blue {
+  color: #182D79;
+}
+
+.blueback {
+  background: #182D79;
+}
+
+.blueborder {
+  border: 1px solid #182D79;
+}
+
+.orange {
+  color: #EEAF18;
+}
+
+.orangeback {
+  background: #EEAF18;
+}
+
+.orangeborder {
+  border: 1px solid #EEAF18;
+}
+
+#header {
+  width: 100%;
+  padding: 20px 0;
+}
+#header .logo {
+  width: 21%;
+  margin: 0;
+  float: left;
+}
+#header .logo img {
+  width: 100%;
+  height: 100%;
+}
+#header .menu i {
+  float: left;
+  line-height: 30px;
+  margin: 0 15px;
+  color: #1CAA5C;
+  cursor: pointer;
+}
+#header .menu .nav {
+  width: 64%;
+  border: 1px solid #1CAA5C;
+  border-radius: 5px;
+  background-color: #1CAA5C;
+}
+#header .menu .nav .nav-link {
+  padding: 5px;
+}
+#header .menu .nav .nav-link p {
+  font-size: 11px;
+  color: white;
+  margin: 0;
+}
+#header .register {
+  width: 100%;
+}
+#header .register a {
+  font-size: 13px;
+}
+#header .register .dropdown {
+  display: inline-block;
+}
+#header .register .btn-secondary {
+  border: none;
+  color: transparent;
+  background-color: transparent;
+  padding: 6px;
+}
+#header .register .btn-secondary:focus {
+  box-shadow: none;
+}
+#header .register .btn-secondary i {
+  color: #BFBFBF;
+}
+#header .register .btn-secondary span {
+  border-radius: 100%;
+  height: 21px;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  line-height: 15px;
+  top: -5px;
+  font-size: 10px;
+}
+#header .register .nameBtn {
+  color: black !important;
+  font-size: 13px;
+}
+#header .register .dropdown-menu {
+  border: 1px solid #1CAA5C;
+}
+#header .register .dropdown-menu p {
+  color: red;
+  float: right;
+}
+#header .add {
+  width: 100%;
+  padding: 3px;
+  background-color: #1CAA5C;
+  border-radius: 5px;
+  text-align: center;
+}
+#header .add a {
+  font-size: 13px;
+  color: white;
+  margin: 0;
+  vertical-align: text-top;
+}
+#header .search {
+  width: 100%;
+  margin: 30px 0;
+}
+#header .search input {
+  width: 94%;
+  border: 1px solid #1CAA5C;
+  border-radius: 4px;
+  padding: 0px 10px;
+  float: left;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
+#header .search input:focus {
+  border-bottom: 1px solid #1CAA5C;
+  box-shadow: none;
+}
+#header .search .searchbtn {
+  padding: 5px;
+  text-align: center;
+  background-color: #1CAA5C;
+  height: 26px;
+  border-radius: 4px;
+}
+#header .search .searchbtn i {
+  color: white;
+  vertical-align: text-top;
+}
+
+#menu .nav {
+  border: 1px solid green;
+  border-radius: 5px;
+  position: relative;
+}
+#menu .nav .dropdown {
+  position: static;
+}
+#menu .nav .show {
+  position: static;
+}
+#menu .nav .nav-link {
+  border-radius: 0;
+  padding: 5px;
+  font-size: 12px;
+  font-family: VisbyCF-Bold;
+}
+#menu .nav .active {
+  background-color: #1CAA5C;
+}
+#menu .nav .active p {
+  color: white;
+}
+#menu .nav .active i {
+  color: white;
+  font-size: 16px;
+  display: none;
+}
+#menu .nav p {
+  font-size: 10px;
+  font-family: VisbyCF-Bold;
+  margin: 0;
+  color: #1CAA5C;
+  text-align: center;
+}
+#menu .nav i {
+  color: #1CAA5C;
+  font-size: 16px;
+  display: none;
+}
+#menu .nav .dropdown-menu {
+  transform: translate3d(0px, 24px, 0) !important;
+  width: 100%;
+}
+#menu .nav .dropdown-menu ul {
+  list-style-type: none;
+}
+#menu .nav .dropdown-menu ul li a {
+  font-size: 12px;
+}
+#menu .nav .dropdown-menu .categoryImage {
+  width: 100%;
+  height: 200px;
+}
+#menu .nav .dropdown-menu .categoryImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#mainBoxes {
+  width: 100%;
+  padding: 20px 0;
+}
+#mainBoxes .heading {
+  width: 100%;
+  position: relative;
+}
+#mainBoxes .heading p {
+  font-family: VisbyCF-Bold;
+  padding: 20px;
+  font-size: 28px;
+  float: left;
+}
+#mainBoxes .heading a p {
+  font-size: 20px;
+  float: right;
+}
+#mainBoxes .heading .choosePrice {
+  position: absolute;
+  top: 25px;
+  right: 15px;
+}
+#mainBoxes .heading .choosePrice .form-control {
+  color: #1CAA5C;
+  border: 1px solid #1CAA5C;
+}
+#mainBoxes .user {
+  border: 1px solid #979797;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+#mainBoxes .user .userImage {
+  width: 100%;
+  height: 100px;
+}
+#mainBoxes .user .userImage .badge, #mainBoxes .user .userImage .badge1, #mainBoxes .user .userImage .badge2 {
+  width: 60px;
+  height: 25px;
+  border-radius: 5px;
+  position: absolute;
+  top: 5px;
+  right: 20px;
+  text-align: center;
+}
+#mainBoxes .user .userImage .badge p, #mainBoxes .user .userImage .badge1 p, #mainBoxes .user .userImage .badge2 p {
+  color: white;
+  font-family: VisbyCF-Bold;
+  font-size: 10px;
+}
+#mainBoxes .user .userImage .badge {
+  background-color: #182D79;
+}
+#mainBoxes .user .userImage .badge p {
+  line-height: 18px;
+}
+#mainBoxes .user .userImage .badge1 {
+  background-color: #EEAF18;
+}
+#mainBoxes .user .userImage .badge1 p {
+  line-height: 24px;
+}
+#mainBoxes .user .userImage .badge2 {
+  background-color: #EEAF18;
+  left: 20px;
+}
+#mainBoxes .user .userImage .badge2 p {
+  line-height: 24px;
+}
+#mainBoxes .user .userProfile {
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  overflow: hidden;
+  margin: 0 auto;
+  margin-top: -40px;
+}
+#mainBoxes .user img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#mainBoxes .user .userName {
+  padding: 5px;
+}
+#mainBoxes .user .userName p {
+  font-size: 11px;
+  font-family: VisbyCF-Bold;
+  text-align: center;
+  margin: 0;
+}
+#mainBoxes .carousel-control-prev {
+  width: 1%;
+}
+#mainBoxes .carousel-control-prev i {
+  color: #1CAA5C;
+}
+#mainBoxes .carousel-control-next {
+  width: 1%;
+}
+#mainBoxes .carousel-control-next i {
+  color: #1CAA5C;
+}
+#mainBoxes .advert {
+  overflow: hidden;
+}
+#mainBoxes .advert .userImage {
+  height: 200px;
+}
+#mainBoxes .advert .advertInfo {
+  width: 100%;
+  height: 25px;
+  background: white;
+  position: relative;
+  bottom: 0;
+  transition: all 1s ease;
+}
+#mainBoxes .advert .advertInfo p {
+  margin: 3px;
+}
+#mainBoxes .advert .advertInfo .info {
+  background: white;
+}
+#mainBoxes .advert .advertInfo .price {
+  font-size: 14px;
+  font-family: VisbyCF-Bold;
+}
+#mainBoxes .advert .advertInfo .circle {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: -2px;
+  right: 30px;
+}
+#mainBoxes .advert .advertInfo .circle img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 100%;
+}
+#mainBoxes .advert .advertInfo i {
+  color: #747474;
+  font-size: 16px;
+  position: absolute;
+  top: 3px;
+  right: 10px;
+}
+#mainBoxes .advert .advertInfo .content {
+  font-size: 13px;
+  color: #464646;
+  font-family: VisbyCF-Medium;
+}
+#mainBoxes .advert .advertInfo .date {
+  font-size: 12px;
+  color: #747474;
+  font-family: VisbyCF-DemiBold;
+}
+#mainBoxes .advert:hover .advertInfo {
+  width: 100%;
+  background: white;
+  bottom: 50px;
+}
+#mainBoxes .prem {
+  width: 100%;
+  padding: 74px 0;
+}
+#mainBoxes .prem p {
+  font-size: 16px;
+  font-family: VisbyCF-Bold;
+  text-align: center;
+}
+#mainBoxes .prem .round {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  margin: 0 auto;
+}
+#mainBoxes .prem .round .line1 {
+  width: 39px;
+  height: 1px;
+  position: relative;
+  top: 50%;
+}
+#mainBoxes .prem .round .line2 {
+  width: 1px;
+  height: 39px;
+  position: relative;
+  left: 50%;
+  top: -1px;
+}
+
+#footer {
+  width: 100%;
+  padding: 30px 0;
+}
+#footer .footerLogo {
+  width: 55%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+#footer .footerLogo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#footer .footerText .text p {
+  font-size: 13px;
+  text-align: center;
+  font-family: VisbyCF-Medium;
+}
+#footer .footerText .text .contact p {
+  font-size: 9px;
+  margin: 0;
+  color: #3A3A3A;
+}
+#footer .footerText .social {
+  text-align: center;
+}
+#footer .footerText .social i {
+  color: #1CAA5C;
+}
+
+.register1 {
+  float: right;
+}
+
+#loginContent {
+  padding: 60px 0;
+}
+#loginContent .heading {
+  padding: 40px 0;
+}
+#loginContent .heading h1, #loginContent .heading p {
+  text-align: center;
+}
+#loginContent .forms {
+  padding: 0 80px;
+}
+#loginContent .forms input {
+  border: none;
+  border-bottom: 1px solid #D8D8D8;
+  border-radius: 0;
+  padding: 5px 0;
+}
+#loginContent .forms input:focus {
+  border-bottom: 1px solid #1CAA5C;
+  box-shadow: none;
+}
+#loginContent .forms input:focus::placeholder {
+  color: #1CAA5C;
+}
+#loginContent .forms button {
+  width: 100%;
+  background-color: #1CAA5C;
+  border-color: #1CAA5C;
+}
+#loginContent .forms a {
+  font-size: 12px;
+}
+#loginContent .line {
+  width: 1px;
+  height: 75px;
+  background-color: #979797;
+  margin: 0 auto;
+}
+#loginContent p {
+  text-align: center;
+  margin: 10px;
+}
+#loginContent .remember {
+  margin-left: 0;
+  background-color: white;
+}
+#loginContent .checkText {
+  margin: 0;
+  font-size: 14px;
+  margin-left: 10px;
+}
+#loginContent .btns {
+  padding: 50px 0;
+}
+#loginContent .btns .btn1 button {
+  background-color: #3B5998;
+  border-color: #3B5998;
+  margin-bottom: 20px;
+}
+#loginContent .btns .btn2 button {
+  background-color: #DB4A39;
+  border-color: #DB4A39;
+}
+
+#loginContent .btns1 {
+  padding: 60px 0;
+}
+#loginContent .btns1 .btn1 button {
+  background-color: #3B5998;
+  border-color: #3B5998;
+  margin-bottom: 20px;
+}
+#loginContent .btns1 .btn2 button {
+  background-color: #DB4A39;
+  border-color: #DB4A39;
+}
+#loginContent .line1 {
+  width: 1px;
+  height: 100px;
+  background-color: #979797;
+  margin: 0 auto;
+}
+
+#filter .search {
+  width: 100%;
+  margin: 30px 0;
+}
+#filter .search input {
+  width: 100%;
+  border: 1px solid #1CAA5C;
+  border-radius: 4px;
+  padding: 0px 10px;
+  float: left;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
+#filter .search input:focus {
+  border-bottom: 1px solid #1CAA5C;
+  box-shadow: none;
+}
+#filter .search .searchbtn {
+  padding: 5px;
+  text-align: center;
+  background-color: #1CAA5C;
+  height: 26px;
+  border-radius: 4px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+#filter .search .searchbtn i {
+  color: white;
+  vertical-align: text-top;
+}
+#filter .search .choosePrice .form-control {
+  color: #1CAA5C;
+  border: 1px solid #1CAA5C;
+  padding: 0;
+  height: 26px;
+  border-radius: 0;
+  border-left: none;
+}
+
+#advertDetails {
+  padding: 40px 0;
+}
+#advertDetails p {
+  font-size: 15px;
+  margin-bottom: 8px;
+}
+#advertDetails .badge3, #advertDetails .badge4 {
+  width: 60px;
+  height: 25px;
+  border-radius: 5px;
+  text-align: center;
+}
+#advertDetails .badge3 p, #advertDetails .badge4 p {
+  color: white;
+  font-family: VisbyCF-Bold;
+  font-size: 10px;
+}
+#advertDetails .badge3 {
+  background-color: #182D79;
+}
+#advertDetails .badge3 p {
+  line-height: 22px;
+}
+#advertDetails .badge4 {
+  background-color: #EEAF18;
+}
+#advertDetails .badge4 p {
+  line-height: 24px;
+}
+#advertDetails .message {
+  width: 100%;
+  height: 26px;
+  border: 1px solid #1CAA5C;
+  border-radius: 5px;
+}
+#advertDetails .message p {
+  color: #1CAA5C;
+  text-align: center;
+  font-size: 12px;
+  line-height: 24px;
+}
+#advertDetails .carousel-indicators {
+  bottom: -100px !important;
+}
+#advertDetails .inform {
+  padding-top: 40px;
+}
+#advertDetails ul {
+  display: block !important;
+  margin: 0 !important;
+  position: absolute !important;
+  top: 0 !important;
+  left: 85% !important;
+  width: 77px !important;
+  padding-left: 0px !important;
+  max-height: 300px;
+  overflow-y: scroll;
+}
+#advertDetails .carousel-control-next {
+  left: 0 !important;
+}
+#advertDetails .carousel-inner {
+  width: 84%;
+}
+#advertDetails ul::-webkit-scrollbar {
+  background: transparent;
+}
+#advertDetails ul::-webkit-scrollbar-track {
+  background: transparent;
+}
+#advertDetails ul::-webkit-scrollbar-thumb {
+  background: transparent;
+}
+#advertDetails ul::-webkit-scrollbar-thumb:hover {
+  background: transparent;
+}
+
+#userProfil {
+  padding: 20px 0;
+}
+#userProfil .backImg {
+  width: 100%;
+  height: 250px;
+}
+#userProfil .backImg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#userProfil .profilInfo {
+  padding: 20px 10px;
+  width: 100%;
+  margin-top: -100px;
+  background-color: white;
+  border: 1px solid #1CAA5C;
+}
+#userProfil .profilInfo .profilImg {
+  width: 100%;
+  height: 120px;
+}
+#userProfil .profilInfo .profilImg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#userProfil .profilInfo .mainInfo p {
+  font-size: 11px;
+  margin: 0;
+}
+#userProfil .profilInfo .mainInfo .social {
+  padding: 5px 0;
+}
+#userProfil .profilInfo .mainInfo .social a {
+  margin-left: 15px;
+}
+#userProfil .profilInfo .mainInfo .social i {
+  color: #1CAA5C;
+}
+#userProfil .profilInfo .info p {
+  font-size: 12px;
+  margin: 0;
+}
+
+#newAdvert {
+  padding: 50px 0;
+  font-family: VisbyCF-Bold;
+}
+#newAdvert .rule {
+  display: none;
+}
+#newAdvert .advertImg {
+  width: 100%;
+  height: 130px;
+  border: 1px solid #1CAA5C;
+}
+#newAdvert .advertImg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin-top: -85px;
+}
+#newAdvert .advertImg .round {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  margin: 0 auto;
+  border: 1px solid #1CAA5C;
+  margin-top: -30px;
+}
+#newAdvert .advertImg .round .line1 {
+  width: 39px;
+  height: 1px;
+  position: relative;
+  top: 50%;
+  background-color: #1CAA5C;
+}
+#newAdvert .advertImg .round .line2 {
+  width: 1px;
+  height: 39px;
+  position: relative;
+  left: 50%;
+  top: -1px;
+  background-color: #1CAA5C;
+}
+#newAdvert .advertImg input[type=file] {
+  opacity: 0;
+  margin-top: 45px;
+  width: 58px;
+}
+#newAdvert .advertImage {
+  width: 100%;
+  height: 60px;
+  border: 1px solid #1CAA5C;
+  margin-bottom: 10px;
+}
+#newAdvert .advertImage input[type=file] {
+  opacity: 0;
+  margin-top: 25px;
+  width: 58px;
+}
+#newAdvert .advertImage .round {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  margin: 0 auto;
+  border: 1px solid #1CAA5C;
+  margin-top: -40px;
+}
+#newAdvert .advertImage .round .line1 {
+  width: 29px;
+  height: 1px;
+  position: relative;
+  top: 50%;
+  background-color: #1CAA5C;
+}
+#newAdvert .advertImage .round .line2 {
+  width: 1px;
+  height: 29px;
+  position: relative;
+  left: 50%;
+  top: -1px;
+  background-color: #1CAA5C;
+}
+#newAdvert .advertImage img {
+  width: 100%;
+  height: 101%;
+  object-fit: cover;
+  margin-top: -61px;
+}
+#newAdvert .userRules {
+  width: 100%;
+  background-color: #D8D8D8;
+  padding: 10px;
+}
+#newAdvert .userRules p {
+  font-family: VisbyCF-Bold;
+  font-size: 16px;
+}
+#newAdvert .advertForm select {
+  border: 1px solid #1CAA5C;
+}
+#newAdvert .advertForm select:focus {
+  box-shadow: none;
+}
+#newAdvert .advertForm .new {
+  float: right;
+}
+#newAdvert .advertForm .new input[type=checkbox] + label {
+  display: block;
+  margin: 10px 0;
+  cursor: pointer;
+  font-size: 12px;
+}
+#newAdvert .advertForm .new input[type=checkbox] {
+  display: none;
+}
+#newAdvert .advertForm .new input[type=checkbox] + label:before {
+  content: "\2714";
+  border: 0.1em solid #1CAA5C;
+  display: inline-block;
+  margin-right: 0.2em;
+  vertical-align: bottom;
+  color: transparent;
+  transition: .4s ease;
+  border-radius: 3px;
+  padding: 1px 5px;
+}
+#newAdvert .advertForm .new input[type=checkbox]:checked + label:before {
+  background-color: white;
+  color: #1CAA5C;
+  border-color: #1CAA5C;
+}
+#newAdvert .advertForm input[type=text], #newAdvert .advertForm input[type=email], #newAdvert .advertForm input[type=password] {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #D8D8D8;
+  border-radius: 0;
+  padding: 5px 0;
+}
+#newAdvert .advertForm input[type=text]:focus, #newAdvert .advertForm input[type=email]:focus, #newAdvert .advertForm input[type=password]:focus {
+  border-bottom: 1px solid #1CAA5C;
+  box-shadow: none;
+}
+#newAdvert .advertForm input[type=text]:focus::placeholder, #newAdvert .advertForm input[type=email]:focus::placeholder, #newAdvert .advertForm input[type=password]:focus::placeholder {
+  color: #1CAA5C;
+}
+#newAdvert .advertForm .lbl {
+  margin: 0;
+  line-height: 35px;
+}
+#newAdvert .advertForm .col-xl-8, #newAdvert .advertForm .col-xl-4 {
+  margin-bottom: 15px;
+}
+#newAdvert .advertForm .line {
+  margin: 20px 0;
+  border-bottom: 1px solid #1CAA5C;
+}
+#newAdvert .advertForm .subBtn {
+  width: 100%;
+  padding: 5px 40px;
+  background-color: #1CAA5C;
+  border: 1px solid #1CAA5C;
+  color: white;
+}
+
+#accountView {
+  width: 100%;
+  padding: 40px 0;
+}
+#accountView .accountImg {
+  width: 100%;
+  height: 200px;
+}
+#accountView .accountImg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#accountView .name h4 {
+  font-family: VisbyCF-Bold;
+}
+#accountView .adverts {
+  width: 100%;
+  border: 1px solid #1CAA5C;
+  border-radius: 5px;
+  padding: 5px;
+  font-family: VisbyCF-Bold;
+  font-size: 13px;
+}
+#accountView .adverts .green {
+  color: #1CAA5C;
+}
+
+#accountContent p, #accountContent table, #accountContent input, #accountContent button {
+  font-family: VisbyCF-Bold;
+}
+#accountContent th {
+  color: #1CAA5C;
+}
+#accountContent .nav-item {
+  width: 100%;
+  color: #1CAA5C;
+  margin-bottom: 20px;
+  text-align: center;
+}
+#accountContent .active {
+  background: transparent;
+  color: #1CAA5C;
+}
+#accountContent .profile {
+  width: 100%;
+  border: 1px solid #1CAA5C;
+  padding: 30px 40px;
+}
+#accountContent .profile input {
+  display: inline-block;
+  width: 70%;
+  border: none;
+  border-bottom: 1px solid #D8D8D8;
+  border-radius: 0;
+  padding: 5px 0;
+}
+#accountContent .profile input:focus {
+  border-bottom: 1px solid #1CAA5C;
+  box-shadow: none;
+}
+#accountContent .profile input:focus::placeholder {
+  color: #1CAA5C;
+}
+#accountContent .profile i {
+  vertical-align: bottom;
+  margin-left: 10px;
+}
+#accountContent .profile button {
+  width: 80%;
+  background-color: #1CAA5C;
+  border-color: #1CAA5C;
+  margin-top: 10px;
+}
+#accountContent .profile .form-control:disabled {
+  background: #fafafa;
+}
+#accountContent .picture {
+  width: 75%;
+  height: 170px;
+  border: 1px solid #1CAA5C;
+}
+#accountContent .picture img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin-top: -101px;
+}
+#accountContent .picture .round {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  margin: 0 auto;
+  border: 1px solid #1CAA5C;
+  margin-top: -30px;
+}
+#accountContent .picture .round .line1 {
+  width: 39px;
+  height: 1px;
+  position: relative;
+  top: 50%;
+  background-color: #1CAA5C;
+}
+#accountContent .picture .round .line2 {
+  width: 1px;
+  height: 39px;
+  position: relative;
+  left: 50%;
+  top: -1px;
+  background-color: #1CAA5C;
+}
+#accountContent .picture input[type=file] {
+  opacity: 0;
+  margin-top: 50px;
+}
+#accountContent .advertTable {
+  border: 1px solid #1CAA5C !important;
+  color: black;
+  font-size: 12px;
+}
+#accountContent .table {
+  margin-bottom: 0;
+}
+#accountContent .accordion {
+  color: black;
+}
+#accountContent .accordion .card {
+  border: none;
+}
+#accountContent .accordion .card .btn {
+  color: black;
+  background: white;
+  text-align: left;
+}
+#accountContent .accordion .card .btn:focus {
+  box-shadow: none;
+}
+#accountContent .accordion .card .btn p {
+  float: left;
+  font-size: 12px;
+  margin-right: 10px;
+  margin-bottom: 0;
+}
+#accountContent .accordion .card .card-header {
+  border: 1px solid #1CAA5C;
+  margin-top: 10px;
+  background: white;
+  padding: .25rem;
+}
+#accountContent .accordion .card .card-body {
+  border: 1px solid #1CAA5C;
+  border-top-color: transparent;
+  max-height: 140px;
+  overflow-y: scroll;
+}
+#accountContent .accordion .card .card-body .msg {
+  width: 100%;
+  background-color: #FAFAFA;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+#accountContent .accordion .card .card-body .msg p {
+  font-size: 12px;
+  margin: 0;
+}
+#accountContent .accordion .card .card-body .txt1 {
+  float: left;
+}
+#accountContent .accordion .card .card-body .txt2 {
+  text-align: right;
+  color: #8A8A8A;
+  font-size: 10px !important;
+}
+#accountContent .accordion .card .card-body .subBtn {
+  width: 100%;
+  background-color: #1CAA5C;
+  border: 1px solid #1CAA5C;
+  color: white;
+  padding: 3px 0px;
+  font-size: 13px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  vertical-align: top;
+  text-align: center;
+}
+#accountContent .accordion .card .card-body input {
+  padding: 3px 10px;
+  font-size: 13px;
+  border-color: #1CAA5C;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+#accountContent .accordion .card .card-body input:focus {
+  box-shadow: none;
+}
+
+#userRules {
+  padding: 40px 0;
+}
+#userRules h1 {
+  text-align: center;
+}
+#userRules h5 {
+  text-align: center;
+}
+
+#serviceRules {
+  padding: 40px 0;
+}
+#serviceRules .badge, #serviceRules .badge1, #serviceRules .badge2 {
+  width: 100%;
+  height: 25px;
+  border-radius: 5px;
+  text-align: center;
+}
+#serviceRules .badge p, #serviceRules .badge1 p, #serviceRules .badge2 p {
+  color: white;
+  font-family: VisbyCF-Bold;
+  font-size: 10px;
+}
+#serviceRules .badge {
+  background-color: #182D79;
+}
+#serviceRules .badge p {
+  line-height: 18px;
+}
+#serviceRules .badge1 {
+  background-color: #EEAF18;
+}
+#serviceRules .badge1 p {
+  line-height: 24px;
+}
+#serviceRules .badge2 {
+  background-color: #EEAF18;
+  left: 20px;
+}
+#serviceRules .badge2 p {
+  line-height: 24px;
+}
+#serviceRules .content {
+  padding: 20px 10px;
+}
+
+#reklam {
+  width: 100%;
+  padding: 40px 0;
+}
+#reklam .reklamImg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#reklam .number {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #1CAA5C;
+  border-radius: 100%;
+  float: left;
+  margin-right: 10px;
+}
+#reklam .number h3 {
+  text-align: center;
+  line-height: 45px;
+  color: #1CAA5C;
+}
+
+#contactReklam {
+  padding: 60px 0;
+}
+#contactReklam h4 {
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+#contactReklam input {
+  border: none;
+  border-bottom: 1px solid #D8D8D8;
+  border-radius: 0;
+  padding: 5px 0;
+}
+#contactReklam input:focus {
+  border-bottom: 1px solid #1CAA5C;
+  box-shadow: none;
+}
+#contactReklam input:focus::placeholder {
+  color: #1CAA5C;
+}
+#contactReklam button {
+  width: 100%;
+  background-color: #1CAA5C;
+  border-color: #1CAA5C;
+}
+#contactReklam a {
+  font-size: 12px;
+}
+
+#contactContent {
+  padding: 40px 0;
+}
+#contactContent img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(50%);
+}
+#contactContent h5 {
+  margin-top: 30px;
+  color: #1CAA5C;
+}
+
+@media (max-width: 576px) {
+  #header .logo {
+    width: 22%;
+  }
+
+  #header .menu {
+    display: none;
+  }
+
+  #footer .footerLogo {
+    width: 95%;
+  }
+
+  #menu .nav p {
+    display: none;
+  }
+
+  #menu .nav i {
+    display: block;
+  }
+
+  #menu .nav .active p {
+    display: none;
+  }
+
+  #menu .nav .active i {
+    display: block;
+  }
+
+  #loginContent .forms {
+    padding: 0 40px;
+  }
+
+  #accountView .name h4 {
+    margin: 20px 0;
+  }
+
+  #accountView .adverts {
+    margin: 20px 0;
+  }
+
+  #accountContent .accordion .card .btn p {
+    font-size: 12px;
+  }
+}
+@media (min-width: 375px) and (max-width: 576px) {
+  #footer .footerLogo {
+    width: 70%;
+  }
+
+  #accountContent .accordion .card .btn p {
+    font-size: 9px !important;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  #header .logo {
+    width: 22%;
+  }
+}
+@media (min-width: 375px) and (max-width: 992px) {
+  #header .login .add a {
+    font-size: 12px;
+  }
+
+  #header .login .register a {
+    font-size: 13px;
+  }
+}
+@media (min-width: 320px) and (max-width: 375px) {
+  #header .login .add a {
+    font-size: 9px;
+  }
+
+  #header .login .register a {
+    font-size: 12px;
+  }
+}
+@media (max-width: 767px) {
+  #mainBoxes .heading p {
+    font-size: 16px;
+  }
+
+  #mainBoxes .heading a p {
+    font-size: 14px;
+  }
+
+  #header .login .register {
+    float: left;
+  }
+
+  #header .search input {
+    width: 89%;
+  }
+
+  #menu .nav p {
+    font-size: 9px;
+  }
+
+  #menu .nav .active p {
+    font-size: 9px;
+  }
+
+  #contactReklam button {
+    margin-top: 20px;
+  }
+
+  .mobile {
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 375px) {
+  #header .login .add a {
+    font-size: 11px;
+  }
+}
+@media (min-width: 576px) and (max-width: 994px) {
+  #footer .footerText .text p {
+    font-size: 10px;
+  }
+}
+@media (min-width: 768px) and (max-width: 994px) {
+  #mainBoxes .advert .advertInfo .content {
+    font-size: 11px;
+  }
+
+  #mainBoxes .advert .advertInfo .date {
+    font-size: 10px;
+  }
+
+  #header .menu .nav .nav-link p {
+    font-size: 11px;
+  }
+
+  #header .menu .nav {
+    width: 65%;
+  }
+
+  #header .register a {
+    font-size: 12px;
+  }
+
+  #header .add a {
+    font-size: 12px;
+  }
+}
+@media (min-width: 320px) and (max-width: 425px) {
+  #mainBoxes .advert .advertInfo .content {
+    font-size: 11px;
+  }
+
+  #mainBoxes .advert .advertInfo .date {
+    font-size: 10px;
+  }
+}
+.nav-pills .show > .nav-link {
+  background-color: #1CAA5C;
+  color: white;
+  font-size: 12px;
+  font-family: VisbyCF-Bold;
+}
+.nav-pills .show > .nav-link p, .nav-pills .show > .nav-link i {
+  color: white !important;
+}
+
+@media (max-width: 425px) {
+  #newAdvert .advertForm .lbl {
+    font-size: 13px;
+  }
+
+  #newAdvert .advertForm select {
+    font-size: 13px;
+  }
+
+  #accountContent .picture {
+    width: 100% !important;
+  }
+
+  #accountContent .advertTable {
+    font-size: 8px;
+  }
+}
+@media (max-width: 992px) {
+  #newAdvert .rule {
+    display: block;
+  }
+
+  #accountContent .nav {
+    border: 1px solid #1CAA5C;
+    height: 36px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  #accountContent .nav .center {
+    border: 1px solid #1CAA5C;
+    border-radius: 0;
+    border-top: none;
+    border-bottom: none;
+  }
+
+  .nav-pills .nav-link {
+    font-size: 12px;
+  }
+}
+@media (max-width: 768px) {
+  #accountContent .picture {
+    width: 58%;
+    height: 250px;
+    margin: 20px auto;
+  }
+  #accountContent .picture input[type=file] {
+    margin-top: 100px;
+  }
+  #accountContent .picture .round {
+    width: 60px;
+    height: 60px;
+    margin-top: -39px;
+  }
+  #accountContent .picture .round .line1 {
+    width: 58px;
+  }
+  #accountContent .picture .round .line2 {
+    height: 58px;
+  }
+  #accountContent .picture img {
+    margin-top: -161px;
+  }
+
+  .form-group {
+    text-align: center;
+  }
+
+  #accountContent .profile button {
+    width: 100%;
+  }
+}
+@media (min-width: 425px) and (max-width: 768px) {
+  #accountContent .picture {
+    width: 80%;
+  }
+}
+@media (max-width: 375px) {
+  #accountContent .accordion .card .btn p {
+    font-size: 8px !important;
+  }
+
+  #header .login .add a {
+    font-size: 11px;
+  }
+}

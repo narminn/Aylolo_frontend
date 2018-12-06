@@ -1,0 +1,50 @@
+#userProfil{
+    padding: 20px 0;
+    .backImg{
+        width: 100%;
+        height: 250px;
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    .profilInfo{
+        padding: 20px 10px;
+        width: 100%;
+        margin-top: -100px;
+        background-color: white;
+        border: 1px solid $colormain;
+        .profilImg{
+            width: 100%;
+            height: 120px;
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+        .mainInfo{
+            p{
+                font-size: 11px;
+                margin: 0;
+            }
+            .social{
+                padding: 5px 0;
+                a{
+                    margin-left: 15px;
+                }
+                i{
+                    color: $colormain;
+                }
+            }
+        }
+        .info{
+            p{
+                font-size: 12px;
+                margin: 0;
+            }
+        }
+
+    }
+}

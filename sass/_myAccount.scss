@@ -1,0 +1,205 @@
+#accountView{
+    width: 100%;
+    padding: 40px 0;
+    
+    .accountImg{
+        width: 100%;
+        height: 200px;
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    .name{
+        h4{
+            font-family: $fontmain;
+
+        }
+    }
+    .adverts{
+        width: 100%;
+        border: 1px solid $colormain;
+        border-radius: 5px;
+        padding: 5px;
+        font-family: $fontmain;
+        font-size: 13px;
+        .green{
+            color: $colormain;
+        }
+    }
+}
+#accountContent{
+    p, table, input, button{
+        font-family: $fontmain;
+    }
+    th{
+        color: $colormain;
+    }
+    .nav-item{
+        width: 100%;
+        color: $colormain;
+        margin-bottom: 20px;
+        text-align: center;
+        
+    }
+    .active{
+        background: transparent;
+        color: $colormain;
+    }
+    .profile{
+        width: 100%;
+        border: 1px solid $colormain;
+        padding: 30px 40px;
+        input{
+            display: inline-block;
+            width: 70%;
+            border: none;
+            border-bottom: 1px solid #D8D8D8;
+            border-radius: 0;
+            padding: 5px 0;
+            &:focus{
+                border-bottom: 1px solid $colormain;
+                box-shadow: none;
+                &::placeholder{
+                    color: $colormain;
+                }
+            }
+        }
+        i{
+            vertical-align: bottom;
+            margin-left: 10px;
+        }
+        button{
+            width: 80%;
+            background-color: $colormain;
+            border-color: $colormain;
+            margin-top: 10px;
+        }
+        .form-control:disabled{
+            background: #fafafa;
+        }
+        
+    }
+    .picture{
+        width: 75%;
+        height: 170px;
+        border: 1px solid $colormain;
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            margin-top: -101px;
+        }
+        .round{
+            width: 40px;
+            height: 40px;
+            border-radius: 100%;
+            margin: 0 auto;
+            border: 1px solid $colormain;
+            margin-top: -30px;
+            .line1{
+              width: 39px;
+              height: 1px;
+              position: relative;
+              top: 50%;
+              background-color: $colormain;
+            }
+            .line2{
+              width: 1px;
+              height: 39px;
+              position: relative;
+              left: 50%;
+              top: -1px;
+              background-color: $colormain;
+            }
+          }
+          input[type=file]{
+              opacity: 0;
+              margin-top: 50px;
+          }
+    }
+    .advertTable{
+        border: 1px solid $colormain !important;
+        color: black;
+        font-size: 12px;
+    }
+    .table{
+        margin-bottom: 0;
+    }
+    .accordion{
+        color: black;
+        .card{
+            border: none;
+            .btn{
+                color: black;
+                background: white;
+                text-align: left;
+                &:focus{
+                    box-shadow: none;
+                }
+                p{
+                    float: left;
+                    font-size: 12px;
+                    margin-right: 10px;
+                    margin-bottom: 0;
+                }
+            }
+            .card-header{
+                border: 1px solid $colormain;
+                margin-top: 10px;
+                background: white;
+                padding: .25rem;
+            }
+            .card-body{
+                border: 1px solid $colormain;
+                border-top-color: transparent;
+                max-height: 140px;
+                overflow-y: scroll;
+                .msg{
+                    width: 100%;
+                    background-color: #FAFAFA;
+                    padding: 5px;
+                    margin-bottom: 10px;
+                    p{
+                        font-size: 12px;
+                        margin: 0;
+                    }
+                }
+                .txt1{
+                   float: left; 
+                }
+                .txt2{
+                    text-align: right;
+                    color: #8A8A8A;
+                    font-size: 10px !important;
+                }
+                .subBtn{
+                    width: 100%;
+                    background-color: $colormain;
+                    border: 1px solid $colormain;
+                    color: white;
+                    padding: 3px 0px;
+                    font-size: 13px;
+                    border-top-left-radius: 0;
+                    border-bottom-left-radius: 0;
+                    vertical-align: top;
+                    text-align: center;
+                }
+                input{
+                    padding: 3px 10px;
+                    font-size: 13px;
+                    border-color:$colormain;
+                    border-top-right-radius: 0;
+                    border-bottom-right-radius: 0;
+                    &:focus{
+                        box-shadow: none;
+                    }
+                    
+                }
+            }
+        }
+        
+
+    }
+}
